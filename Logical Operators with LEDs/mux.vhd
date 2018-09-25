@@ -1,3 +1,10 @@
+-- Code for mux component. The information on this sub-block will transfer to the
+-- LogicalStep_Lab2_top.vhd file and will allow us to choose an appropriate output depending on the pb(3)
+-- push button inputs. The output will either be DIN1 or DIN2, with are 8-bit logic vectors.
+-- It is used in two instances in the top vhd file—one to choose between the concatenated sum and the
+-- concatenated two inputs, and the other to choose between the concatenated output of the logic sub-block
+-- and the concatenated sum.
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
