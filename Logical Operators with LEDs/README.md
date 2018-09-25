@@ -8,3 +8,9 @@
   if the 4th, displays XOR
   if the 5th, displays the result of addition
 4. If more than one button is pressed, error condition raised; seven segment display lights up completely. displaying 8's
+
+
+Below is the logical flow of the project, credits to the University of Waterloo ECE125 Lab Manual
+
+![alt text](https://raw.githubusercontent.com/alice-mu/FPGA-VHDL-Stuff/master/Logical%20Operators%20with%20LEDs/project-1-flow.jpg)
+    
