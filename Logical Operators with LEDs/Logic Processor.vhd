@@ -1,3 +1,9 @@
+-- This is the code I wrote for our logic processor component. This shows the operations we used to
+-- implement the various logic cases (AND, OR, XOR modes). The information on this sub-block will transfer
+-- to the LogicalStep_Lab2_top.vhd file and will allow me to change the LED sequence when I press the
+-- pushbuttons.
+
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
