@@ -1,3 +1,5 @@
+-- single-bit comparator for practice
+	
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -5,7 +7,7 @@ use ieee.numeric_std.all;
 
 entity Compx1 is port (
    
-   a	   :  in  std_logic;
+   a	 :  in  std_logic;
    b     :  in std_logic;
 	
 	a_greater  : out std_logic;
